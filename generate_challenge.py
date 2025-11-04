@@ -118,19 +118,27 @@ def get_fare_statistics_by_class(df):
             }
     return stats
 
+# Generate a key for the substitution cipher
+def generate_key():
+    letters = list("abcdefhijklmnopqrstuvwxyz")
+    random.shuffle(letters)
+
+    cipher_key = ''.join(letters)
+    print(cipher_key)
+    return cipher_key
+
 # Encryption algorithm for monoalphabetic substitution cipher
 # Key is a string of 26 characters
 def encrypt(plain_text, key):
     cipher_text = ""
     plain_text = plain_text.lower()
     for char in plain_text:
-        # Ignore spaces
-        if char == " ":
-            cipher_text += ' '
-        else:
+        if ord(char) >= ord('a') and ord(char) <= ord('z'):
             # Get index of plain text within alphabet (start from 0)
             pos = ord(char) - ord('a')
             cipher_text += key[pos]
+        else:
+            cipher_text += char
         
     return cipher_text
 
@@ -353,12 +361,12 @@ def generate_challenge_4(df):
     """Generate challenge 4 - Letters from a Stowaway"""
     stowaway = df.sample(1)
 
-    cipher_key = "abcdefghijklmnopqrstuvwxyz"
+    cipher_key = generate_key()
 
     # Intercepted letter is not to be encrypted as it is to be used to help decrypt the other letter
     intercepted_letter = "Hello, this is unencrypted text"
     # Plaintext letter should not contain numbers.
-    plaintext_letter = "This is going to be encrypted"
+    plaintext_letter = "This, is going to be encrypted"
     ciphertext_letter = encrypt(plaintext_letter, cipher_key)
 
     challenge_data = {

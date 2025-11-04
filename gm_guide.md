@@ -16,64 +16,64 @@
 
 **Card 1**
 ```
-name: Sawyer, Mr. Frederick Charles
+name: Nakid, Miss. Maria ("Mary")
 Pclass: 3
-Age: 24.5
-Sex: male
-Fare: 8.05
-Embarked: S
+Age: 1.0
+Sex: female
+Fare: 15.74
+Embarked: C
 ```
 **Card 2**
 ```
-name: O'Driscoll, Miss. Bridget
+name: Calic, Mr. Jovo
 Pclass: 3
-Age: nan
-Sex: female
-Fare: 7.75
-Embarked: Q
+Age: 17.0
+Sex: male
+Fare: 8.66
+Embarked: S
 ```
 **Card 3**
 ```
-name: Palsson, Miss. Stina Viola
+name: Calic, Mr. Petar
 Pclass: 3
-Age: 3.0
-Sex: female
-Fare: 21.07
+Age: 17.0
+Sex: male
+Fare: 8.66
 Embarked: S
 ```
 **Card 4**
 ```
-name: McEvoy, Mr. Michael
+name: O'Brien, Mrs. Thomas (Johanna "Hannah" Godfrey)
 Pclass: 3
 Age: nan
-Sex: male
-Fare: 497.75
+Sex: female
+Fare: 15.5
 Embarked: Q
 ```
 **Card 5**
 ```
-name: Newell, Miss. Marjorie
+name: Long, Mr. Milton Clyde
 Pclass: 1
-Age: 23.0
-Sex: female
-Fare: 113.28
-Embarked: C
+Age: 29.0
+Sex: male
+Fare: 30.0
+Embarked: S
 ```
 **Card 6**
 ```
-name: McDermott, Miss. Brigdet Delia
-Pclass: 3
-Age: nan
+name: Vestrom, Miss. Hulda Amanda Adolfina
+Pclass: 2
+Age: 14.0
 Sex: female
-Fare: 7.79
-Embarked: Q
+Fare: 400.18
+Embarked: S
 ```
 
 ---
 ### GM Guide
 
 > **Hint:** GM Hint: Refer to the box plot above. The forged card has a fare that doesn't match its class - either much higher or much lower than typical for that class. Players should compare each card's fare with the distribution shown in the chart for that card's class.
-> **Answer:** [[REVEAL_ANSWER]]The forged card: 3rd class (Pclass=3) but paying £497.75, which is much higher than typical 3rd class fares (£4.01-69.55). **(In this game, this card is Card 4)**[[END_REVEAL]]
+> **Answer:** [[REVEAL_ANSWER]]The forged card: 2nd class (Pclass=2) but paying £400.18, which doesn't match typical 2nd class fares (£10.50-73.50). **(In this game, this card is Card 6)**[[END_REVEAL]]
 > **Obtain:** **Temporal Coordinate Fragment 1** hidden under the forged card.
 
 ---
@@ -91,38 +91,38 @@ Embarked: Q
 
 **Card 1**
 ```
-Name: Razi, Mr. Raihed
+Name: Braund, Mr. Owen Harris
 Pclass: 3
-Age: 23
+Age: 22
 Sex: male
-Fare: 7.23
-Embarked: C
+Fare: 7.25
+Embarked: S
 ```
 **Card 2**
 ```
-Name: Graham, Mr. George Edward
-Pclass: 1
-Age: 38
+Name: Danoff, Mr. Yoto
+Pclass: 3
+Age: 27
 Sex: male
-Fare: 153.46
+Fare: 7.9
 Embarked: S
 ```
 **Card 3**
 ```
-Name: Allison, Miss. Helen Loraine
-Pclass: 1
-Age: 2
+Name: Emanuel, Miss. Virginia Ethel
+Pclass: 3
+Age: 5
 Sex: female
-Fare: 151.55
+Fare: 12.47
 Embarked: S
 ```
 **Card 4**
 ```
-Name: Hocking, Mrs. Elizabeth (Eliza Needs)
-Pclass: 2
-Age: 54
-Sex: female
-Fare: 23.0
+Name: Johnson, Mr. William Cahoone Jr
+Pclass: 3
+Age: 19
+Sex: male
+Fare: 0.0
 Embarked: S
 ```
 
@@ -130,7 +130,7 @@ Embarked: S
 ### GM Guide
 
 > **Hint:** Use the survival charts above to infer the 4-digit lifeboat code.
-> **Answer:** [[REVEAL_ANSWER]]0001[[END_REVEAL]]
+> **Answer:** [[REVEAL_ANSWER]]0010[[END_REVEAL]]
 > **Obtain:** **Temporal Coordinate Fragment 3** hidden within the lifeboat control panel.
 
 ---
@@ -144,7 +144,7 @@ Embarked: S
 
 **Plaintext Letter**```Hello, this is unencrypted text
 ```
-**Encrypted Letter**```3his is going 3o be encryp3ed
+**Encrypted Letter**```amix, ix hqivh aq lu uvrsdwaue
 ```
 ### Possible suspects 
 
