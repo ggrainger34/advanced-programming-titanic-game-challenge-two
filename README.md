@@ -18,6 +18,11 @@ This project generates an interactive GM (Game Master) guide based on the Titani
 - **Randomized gameplay**: Each run generates different passenger combinations
 - **One-command workflow**: Generate everything with a single script
 
+## How to run 
+1. Run generate_challenge.py
+2. Run convert_to_html.py
+3. Open gm_guide.html
+
 ## File Structure
 
 ```
