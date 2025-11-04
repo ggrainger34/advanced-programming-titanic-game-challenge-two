@@ -118,7 +118,6 @@ def get_fare_statistics_by_class(df):
             }
     return stats
 
-
 def generate_challenge_1(df):
     """Generate Challenge 1: Find the Anomaly"""
     # Filter out passengers with zero or missing fares for realistic data
@@ -329,6 +328,23 @@ def generate_challenge_3(df):
 
     return challenge_data
 
+def generate_challenge_4(df):
+    """Generate challenge 4 - Letters from a Stowaway"""
+    stowaway = df.sample(1)
+
+    letters = ["Letter1", "Letter2"]
+
+    challenge_data = {
+        "id": 4,
+        "title": "Letters from a Stowaway",
+        "story": "Story",
+        "instructions": "Instructions",
+        "plaintext_letter" : "This is my plaintext letter",
+        "encrypted_letter" : "This is my encrypted letter"
+    }
+
+    return challenge_data
+
 
 def generate_game_data():
     """Generate fresh game data from dataset"""
@@ -342,6 +358,9 @@ def generate_game_data():
     print("Generating challenge 3...")
     challenge_3 = generate_challenge_3(df)
 
+    print("Generating challenge 4...")
+    challenge_4 = generate_challenge_4(df)
+
     game_data = {
         "story_background": {
             "theme": "The Temporal Rift on the Titanic",
@@ -350,7 +369,8 @@ def generate_game_data():
         },
         "challenges": [
             challenge_1,
-            challenge_3
+            challenge_3,
+            challenge_4
         ]
     }
     

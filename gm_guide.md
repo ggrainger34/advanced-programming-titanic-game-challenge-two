@@ -16,64 +16,64 @@
 
 **Card 1**
 ```
-name: Carter, Rev. Ernest Courtenay
-Pclass: 2
-Age: 54.0
+name: Williams, Mr. Howard Hugh "Harry"
+Pclass: 3
+Age: nan
 Sex: male
-Fare: 270.29
+Fare: 8.05
 Embarked: S
 ```
 **Card 2**
 ```
-name: Andersson, Mr. Anders Johan
-Pclass: 3
-Age: 39.0
-Sex: male
-Fare: 31.27
+name: Carter, Miss. Lucile Polk
+Pclass: 1
+Age: 14.0
+Sex: female
+Fare: 120.0
 Embarked: S
 ```
 **Card 3**
 ```
-name: Tikkanen, Mr. Juho
+name: Lefebre, Miss. Jeannie
 Pclass: 3
-Age: 32.0
-Sex: male
-Fare: 7.92
+Age: nan
+Sex: female
+Fare: 25.47
 Embarked: S
 ```
 **Card 4**
 ```
-name: Carr, Miss. Helen "Ellen"
-Pclass: 3
-Age: 16.0
+name: Warren, Mrs. Frank Manley (Anna Sophia Atkinson)
+Pclass: 1
+Age: 60.0
 Sex: female
-Fare: 7.75
-Embarked: Q
+Fare: 6.95
+Embarked: C
 ```
 **Card 5**
 ```
-name: Bishop, Mr. Dickinson H
-Pclass: 1
-Age: 25.0
+name: Panula, Master. Juha Niilo
+Pclass: 3
+Age: 7.0
 Sex: male
-Fare: 91.08
-Embarked: C
+Fare: 39.69
+Embarked: S
 ```
 **Card 6**
 ```
-name: Berriman, Mr. William John
-Pclass: 2
-Age: 23.0
-Sex: male
-Fare: 13.0
-Embarked: S
+name: Peters, Miss. Katie
+Pclass: 3
+Age: nan
+Sex: female
+Fare: 8.14
+Embarked: Q
 ```
 
 ---
 ### GM Guide
 
 > **Hint:** GM Hint: Refer to the box plot above. The forged card has a fare that doesn't match its class - either much higher or much lower than typical for that class. Players should compare each card's fare with the distribution shown in the chart for that card's class.
-> **Answer:** [[REVEAL_ANSWER]]The forged card: 2nd class (Pclass=2) but paying £270.29, which doesn't match typical 2nd class fares (£10.50-73.50). **(In this game, this card is Card 1)**[[END_REVEAL]]
+> **Answer:** [[REVEAL_ANSWER]]The forged card: 1st class (Pclass=1) but paying £6.95, which is much lower than typical 1st class fares (£5.00-512.33). **(In this game, this card is Card 4)**[[END_REVEAL]]
 > **Obtain:** **Temporal Coordinate Fragment 1** hidden under the forged card.
 
 ---
@@ -91,38 +91,38 @@ Embarked: S
 
 **Card 1**
 ```
-Name: Reeves, Mr. David
-Pclass: 2
-Age: 36
+Name: Mionoff, Mr. Stoytcho
+Pclass: 3
+Age: 28
 Sex: male
-Fare: 10.5
+Fare: 7.9
 Embarked: S
 ```
 **Card 2**
 ```
-Name: Foo, Mr. Choong
+Name: Olsen, Mr. Ole Martin
 Pclass: 3
-Age: 50
+Age: 29
 Sex: male
-Fare: 56.5
+Fare: 7.31
 Embarked: S
 ```
 **Card 3**
 ```
-Name: Zabour, Miss. Thamine
+Name: Cribb, Mr. John Hatfield
 Pclass: 3
-Age: 22
-Sex: female
-Fare: 14.45
-Embarked: C
+Age: 44
+Sex: male
+Fare: 16.1
+Embarked: S
 ```
 **Card 4**
 ```
-Name: Lobb, Mrs. William Arthur (Cordelia K Stanlick)
-Pclass: 3
-Age: 26
-Sex: female
-Fare: 16.1
+Name: Allison, Master. Hudson Trevor
+Pclass: 1
+Age: 1
+Sex: male
+Fare: 151.55
 Embarked: S
 ```
 
@@ -130,8 +130,23 @@ Embarked: S
 ### GM Guide
 
 > **Hint:** Use the survival charts above to infer the 4-digit lifeboat code.
-> **Answer:** [[REVEAL_ANSWER]]0100[[END_REVEAL]]
+> **Answer:** [[REVEAL_ANSWER]]0001[[END_REVEAL]]
 > **Obtain:** **Temporal Coordinate Fragment 3** hidden within the lifeboat control panel.
+
+---
+## Letters from a Stowaway
+
+**Story:** Story
+
+**Task:** Instructions
+
+### Letters from the Stowaway 
+
+**Plaintext Letter**```This is my plaintext letter
+```
+**Encrypted Letter**```This is my encrypted letter
+```
+### Possible suspects 
 
 ---
 ## Game End
