@@ -5,35 +5,35 @@
     "instructions": "Predict which of the 4 passengers survived (1) or perished (0). Use the survival clues provided.",
     "passengers": [
         {
-            "Name": "Braund, Mr. Owen Harris",
+            "Name": "Palsson, Mrs. Nils (Alma Cornelia Berglund)",
             "Pclass": 3,
-            "Age": 22,
-            "Sex": "male",
-            "Fare": 7.25,
-            "Embarked": "S"
-        },
-        {
-            "Name": "Danoff, Mr. Yoto",
-            "Pclass": 3,
-            "Age": 27,
-            "Sex": "male",
-            "Fare": 7.9,
-            "Embarked": "S"
-        },
-        {
-            "Name": "Emanuel, Miss. Virginia Ethel",
-            "Pclass": 3,
-            "Age": 5,
+            "Age": 29,
             "Sex": "female",
-            "Fare": 12.47,
+            "Fare": 21.07,
             "Embarked": "S"
         },
         {
-            "Name": "Johnson, Mr. William Cahoone Jr",
-            "Pclass": 3,
-            "Age": 19,
+            "Name": "Brown, Miss. Amelia \"Mildred\"",
+            "Pclass": 2,
+            "Age": 24,
+            "Sex": "female",
+            "Fare": 13.0,
+            "Embarked": "S"
+        },
+        {
+            "Name": "Reuchlin, Jonkheer. John George",
+            "Pclass": 1,
+            "Age": 38,
             "Sex": "male",
             "Fare": 0.0,
+            "Embarked": "S"
+        },
+        {
+            "Name": "Laleff, Mr. Kristo",
+            "Pclass": 3,
+            "Age": 28,
+            "Sex": "male",
+            "Fare": 7.9,
             "Embarked": "S"
         }
     ],
@@ -51,5 +51,5 @@
         "hint\\challenge_3_sex_pclass.png",
         "hint\\challenge_3_age_group.png"
     ],
-    "correct_code": "0010"
+    "correct_code": "0100"
 }

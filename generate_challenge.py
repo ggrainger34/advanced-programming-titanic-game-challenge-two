@@ -364,16 +364,43 @@ def generate_challenge_4(df):
     cipher_key = generate_key()
 
     # Intercepted letter is not to be encrypted as it is to be used to help decrypt the other letter
-    intercepted_letter = "Hello, this is unencrypted text"
+    intercepted_letter = """   
+R.M.S. TITANIC  
+MARCONI WIRELESS SERVICE  
+APRIL 12, 1912
+To Mr. David Smith
+Good afternoon, I have snuck aboard this mighty vessel. 
+Now time to implement my darstardly plan!
+Yours Sincerely,
+
+A Guest of the Deep"""
     # Plaintext letter should not contain numbers.
-    plaintext_letter = "This, is going to be encrypted"
+    plaintext_letter = """
+R.M.S. TITANIC  
+MARCONI WIRELESS SERVICE  
+APRIL 12, 1912
+My secret alias is Mr James Moran
+
+A Guest of the Deep"""
+
+    story_text = """
+    
+    The Captain has called you and your group to the deck of the ship with an 
+    urgent mission. Telegrams have been intercepted from the ship's Marconi machine
+    and it appears there is a stowaway on board! Unfortunately, the dastardly 
+    stowaway has managed to scramble one of the telegrams using a mysterious code. 
+    The Captain has created a list of 10 suspects. Can you decipher the letter and
+    obtain the identity of the suspect before they get away?!
+    
+    """
+
     ciphertext_letter = encrypt(plaintext_letter, cipher_key)
 
     challenge_data = {
         "id": 4,
         "title": "Letters from a Stowaway",
-        "story": "Story",
-        "instructions": "Instructions",
+        "story": story_text,
+        "instructions": "Decode the encrypted letter and select the name from the list of suspects.",
         "intercepted_letter" : intercepted_letter,
         "ciphertext_letter" : ciphertext_letter
     }

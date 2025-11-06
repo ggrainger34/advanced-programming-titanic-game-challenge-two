@@ -16,56 +16,56 @@
 
 **Card 1**
 ```
-name: Nakid, Miss. Maria ("Mary")
-Pclass: 3
-Age: 1.0
+name: Holverson, Mrs. Alexander Oskar (Mary Aline Towner)
+Pclass: 1
+Age: 35.0
 Sex: female
-Fare: 15.74
-Embarked: C
+Fare: 52.0
+Embarked: S
 ```
 **Card 2**
 ```
-name: Calic, Mr. Jovo
-Pclass: 3
-Age: 17.0
-Sex: male
-Fare: 8.66
-Embarked: S
+name: Duff Gordon, Lady. (Lucille Christiana Sutherland) ("Mrs Morgan")
+Pclass: 1
+Age: 48.0
+Sex: female
+Fare: 39.6
+Embarked: C
 ```
 **Card 3**
 ```
-name: Calic, Mr. Petar
+name: Elsbury, Mr. William James
 Pclass: 3
-Age: 17.0
+Age: 47.0
 Sex: male
-Fare: 8.66
+Fare: 7.25
 Embarked: S
 ```
 **Card 4**
 ```
-name: O'Brien, Mrs. Thomas (Johanna "Hannah" Godfrey)
+name: Andersson, Miss. Erna Alexandra
 Pclass: 3
-Age: nan
+Age: 17.0
 Sex: female
-Fare: 15.5
-Embarked: Q
+Fare: 7.92
+Embarked: S
 ```
 **Card 5**
 ```
-name: Long, Mr. Milton Clyde
+name: Sage, Mr. Douglas Bullen
 Pclass: 1
-Age: 29.0
+Age: nan
 Sex: male
-Fare: 30.0
+Fare: 2.87
 Embarked: S
 ```
 **Card 6**
 ```
-name: Vestrom, Miss. Hulda Amanda Adolfina
-Pclass: 2
-Age: 14.0
-Sex: female
-Fare: 400.18
+name: Hampe, Mr. Leon
+Pclass: 3
+Age: 20.0
+Sex: male
+Fare: 9.5
 Embarked: S
 ```
 
@@ -73,7 +73,7 @@ Embarked: S
 ### GM Guide
 
 > **Hint:** GM Hint: Refer to the box plot above. The forged card has a fare that doesn't match its class - either much higher or much lower than typical for that class. Players should compare each card's fare with the distribution shown in the chart for that card's class.
-> **Answer:** [[REVEAL_ANSWER]]The forged card: 2nd class (Pclass=2) but paying £400.18, which doesn't match typical 2nd class fares (£10.50-73.50). **(In this game, this card is Card 6)**[[END_REVEAL]]
+> **Answer:** [[REVEAL_ANSWER]]The forged card: 1st class (Pclass=1) but paying £2.87, which is much lower than typical 1st class fares (£5.00-512.33). **(In this game, this card is Card 5)**[[END_REVEAL]]
 > **Obtain:** **Temporal Coordinate Fragment 1** hidden under the forged card.
 
 ---
@@ -91,38 +91,38 @@ Embarked: S
 
 **Card 1**
 ```
-Name: Braund, Mr. Owen Harris
+Name: Palsson, Mrs. Nils (Alma Cornelia Berglund)
 Pclass: 3
-Age: 22
-Sex: male
-Fare: 7.25
+Age: 29
+Sex: female
+Fare: 21.07
 Embarked: S
 ```
 **Card 2**
 ```
-Name: Danoff, Mr. Yoto
-Pclass: 3
-Age: 27
-Sex: male
-Fare: 7.9
+Name: Brown, Miss. Amelia "Mildred"
+Pclass: 2
+Age: 24
+Sex: female
+Fare: 13.0
 Embarked: S
 ```
 **Card 3**
 ```
-Name: Emanuel, Miss. Virginia Ethel
-Pclass: 3
-Age: 5
-Sex: female
-Fare: 12.47
+Name: Reuchlin, Jonkheer. John George
+Pclass: 1
+Age: 38
+Sex: male
+Fare: 0.0
 Embarked: S
 ```
 **Card 4**
 ```
-Name: Johnson, Mr. William Cahoone Jr
+Name: Laleff, Mr. Kristo
 Pclass: 3
-Age: 19
+Age: 28
 Sex: male
-Fare: 0.0
+Fare: 7.9
 Embarked: S
 ```
 
@@ -130,21 +130,45 @@ Embarked: S
 ### GM Guide
 
 > **Hint:** Use the survival charts above to infer the 4-digit lifeboat code.
-> **Answer:** [[REVEAL_ANSWER]]0010[[END_REVEAL]]
+> **Answer:** [[REVEAL_ANSWER]]0100[[END_REVEAL]]
 > **Obtain:** **Temporal Coordinate Fragment 3** hidden within the lifeboat control panel.
 
 ---
 ## Letters from a Stowaway
 
-**Story:** Story
+**Story:** 
+    
+    The Captain has called you and your group to the deck of the ship with an 
+    urgent mission. Telegrams have been intercepted from the ship's Marconi machine
+    and it appears there is a stowaway on board! Unfortunately, the dastardly 
+    stowaway has managed to scramble one of the telegrams using a mysterious code. 
+    The Captain has created a list of 10 suspects. Can you decipher the letter and
+    obtain the identity of the suspect before they get away?!
+    
+    
 
-**Task:** Instructions
+**Task:** Decode the encrypted letter and select the name from the list of suspects.
 
 ### Letters from the Stowaway 
 
-**Plaintext Letter**```Hello, this is unencrypted text
+**Plaintext Letter**```   
+R.M.S. TITANIC  
+MARCONI WIRELESS SERVICE  
+APRIL 12, 1912
+To Mr. David Smith
+Good afternoon, I have snuck aboard this mighty vessel. 
+Now time to implement my darstardly plan!
+Yours Sincerely,
+
+A Guest of the Deep
 ```
-**Encrypted Letter**```amix, ix hqivh aq lu uvrsdwaue
+**Encrypted Letter**```
+c.p.x. mkmuhkr  
+pucrshk qkctntxx xtcfkrt  
+ulckn 12, 1912
+pi xtrctm unkux kx pc vuptx pscuh
+
+u aytxm sb met dttl
 ```
 ### Possible suspects 
 
